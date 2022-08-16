@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+
+.midjourney {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.midjourney select {
+  @apply rounded-md bg-neutral-700 text-white h-12 hover:bg-neutral-500 cursor-pointer;
+}
+.midjourney-navbar select {
+  @apply text-sm rounded-md bg-neutral-600 text-white h-3 w-32 hover:bg-neutral-500 cursor-pointer;
+}
+
+.midjourney-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.midjourney-scrollbar::-webkit-scrollbar-track {
+  @apply bg-opacity-0 rounded-none z-50;
+  margin: 10px 0px;
+}
+
+.midjourney-scrollbar::-webkit-scrollbar-corner {
+  @apply text-transparent bg-transparent;
+}
+
+.midjourney-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300 rounded-full cursor-pointer;
+}
+
+.midjourney-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-300 cursor-move;
+}
+.midjourney-scrollbar-canvas {
+  overflow: overlay;
+}

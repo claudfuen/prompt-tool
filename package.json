@@ -6,9 +6,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@analytics/google-analytics": "^1.0.3",
+    "@analytics/mixpanel": "^0.4.0",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@sentry/nextjs": "^7.10.0",
+    "analytics": "^0.8.1",
+    "axios": "^0.27.2",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "18.1.0",
+    "react-dropzone": "^14.2.2",
+    "react-hot-toast": "^2.3.0",
+    "swr-firestore-v9": "^1.0.5"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
