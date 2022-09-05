@@ -172,7 +172,7 @@ const MidJourneyPage = () => {
       <FacebookPixel pixelId="734778551076768" />
       <a
         className="bg-primary-100 text-white hover:text-white text-center p-2 flex justify-center items-center cursor-pointer hover:bg-primary-200 gap-2"
-        href="https://app.diffusion.land"
+        href="https://www.diffusion.land/"
         target="_blank"
       >
         <p className="text-lg">✨ NEW: Generate Images with Stable Diffusion</p>
