@@ -4,6 +4,7 @@ import {
   ClockIcon,
   UploadIcon,
 } from "@heroicons/react/outline";
+import { ArrowRightIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
@@ -169,6 +170,14 @@ const MidJourneyPage = () => {
     <div>
       <MidJourneyHead title="MidJourney Prompt Tool" />
       <FacebookPixel pixelId="734778551076768" />
+      <a
+        className="bg-primary-100 text-white hover:text-white text-center p-2 flex justify-center items-center cursor-pointer hover:bg-primary-200 gap-2"
+        href="https://app.diffusion.land"
+        target="_blank"
+      >
+        <p className="text-lg">✨ NEW: Generate Images with Stable Diffusion</p>
+        <ArrowRightIcon className="h-4 w-4" />
+      </a>
       <MidJourneyNavbar />
       <div className="py-8 p-4 sm:px-16 max-w-6xl mx-auto flex flex-col gap-4 midjourney justify-center overflow-y-auto items-center">
         <ModelSelector activeTab="midjourney" />
