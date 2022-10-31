@@ -264,18 +264,7 @@ const MidJourneyPage = () => {
             activeTab="midjourney"
           />
         </div>
-        <a
-          href="https://discord.gg/cVSXqgR7a5"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="flex gap-2 bg-neutral-700 rounded-md p-2 cursor-pointer hover:bg-primary-100">
-            <p className="text-white">
-              Share your creation on our Discord Community
-            </p>
-            <Image src="/discord-logo.svg" height={20} width={20} alt="" />
-          </div>
-        </a>
+
         <Link href="/midjourney/history" passHref>
           <div className="flex gap-2 items-center cursor-pointer hover:opacity-60">
             View your prompt history{" "}
@@ -288,7 +277,6 @@ const MidJourneyPage = () => {
           <p>Bookmark this page by pressing Cmd/Ctrl + D </p>
         </div>
       </div>
-      <Footer activeTab="midjourney" />
     </div>
   );
 };

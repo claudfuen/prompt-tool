@@ -94,7 +94,6 @@ const DallEPromptTool = () => {
           <p>Bookmark this page by pressing Cmd/Ctrl + D </p>
         </div>
       </div>
-      <Footer activeTab={"dalle"} />
     </div>
   );
 };
