@@ -13,7 +13,7 @@ export default function ModelSelector({ activeTab }: { activeTab: string }) {
           MidJourney
         </button>
       </Link>
-      <Link href="/dalle" passHref>
+      <Link href="https://diffusion.land?model=dalle" passHref>
         <button
           className={`p-1 px-3 rounded-full hover:bg-primary-300 ${
             activeTab === "dalle" ? "bg-primary-100" : ""
